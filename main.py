@@ -141,8 +141,7 @@ async def cookies_handler(client: Client, m: Message):
         # Replace the content of the target cookies file
         with open(cookies_file_path, "w") as target_file:
             target_file.write(cookies_content)
-
-        await input_message.reply_text(
+ await input_message.reply_text(
             "✅ Cookies updated successfully.\n📂 Saved in `youtube_cookies.txt`."
         )
 
