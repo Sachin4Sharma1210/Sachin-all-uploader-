@@ -1,0 +1,11 @@
+[project]
+name = "my-bot"
+version = "0.1.0"
+dependencies = [
+    "pyrogram",
+    "tgcrypto",
+    "setuptools",
+    "requests",
+    "flask",
+    "gunicorn"
+]
